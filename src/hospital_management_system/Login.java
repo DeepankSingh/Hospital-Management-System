@@ -1,4 +1,4 @@
-package hospital.management.system;
+package hospital_management_system;
 
 
 import javax.swing.*;
@@ -40,7 +40,7 @@ public class Login extends JFrame implements ActionListener {
         add(passwordField);
 
         ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/login.png"));
-        Image i1 = imageIcon.getImage().getScaledInstance(500, 500,Image.SCALE_DEFAULT);
+        Image i1 = imageIcon.getImage().getScaledInstance(300, 300,Image.SCALE_DEFAULT);
         ImageIcon imageIcon1 = new ImageIcon(i1);
         JLabel label = new JLabel(imageIcon1);
         label.setBounds(320, -30, 400, 300);
@@ -63,7 +63,7 @@ public class Login extends JFrame implements ActionListener {
         add(b2);
 
 
-        getContentPane().setBackground(new Color(109,164,170));
+        getContentPane().setBackground(new Color(9,124,84,255));
         //every code will come above these lines otherwise they wouldn't be visible
         setSize(750,300);
         setLocation(400,270);
@@ -87,7 +87,7 @@ public class Login extends JFrame implements ActionListener {
                 ResultSet resultSet = c.statement.executeQuery(q);
 
                 if (resultSet.next()){
-                    new test();
+                    new Reception();
                     setVisible(false);
                 }else {
                     JOptionPane.showMessageDialog(null, "Invalid Username or Password");

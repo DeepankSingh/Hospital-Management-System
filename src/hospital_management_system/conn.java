@@ -1,4 +1,4 @@
-package hospital.management.system;
+package hospital_management_system;
 
 import java.sql.DriverManager;
 import java.sql.Statement;
