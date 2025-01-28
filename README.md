@@ -79,7 +79,8 @@ $ cd Hospital-Management-System
 
 ## Screenshots
 
-(Add screenshots of the application here, such as the login screen, patient management screen, etc.)
+![image](https://github.com/user-attachments/assets/94fca939-6b6c-44fd-9c91-0bd401de455f)
+![image](https://github.com/user-attachments/assets/43699fc8-9149-414a-9848-5c41a3721a6e)
 
 ---
 
